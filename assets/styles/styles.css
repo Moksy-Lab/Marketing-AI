@@ -1,448 +1,487 @@
-<br />
-<b>Warning</b>:  Undefined variable $branding in <b>/var/www/preview/index.php</b> on line <b>119</b><br />
-<br />
-<b>Warning</b>:  Trying to access array offset on value of type null in <b>/var/www/preview/index.php</b> on line <b>119</b><br />
-<br />
-<b>Warning</b>:  Undefined variable $branding in <b>/var/www/preview/index.php</b> on line <b>120</b><br />
-<br />
-<b>Warning</b>:  Trying to access array offset on value of type null in <b>/var/www/preview/index.php</b> on line <b>120</b><br />
-<br />
-<b>Warning</b>:  Undefined variable $branding in <b>/var/www/preview/index.php</b> on line <b>121</b><br />
-<br />
-<b>Warning</b>:  Trying to access array offset on value of type null in <b>/var/www/preview/index.php</b> on line <b>121</b><br />
-<br />
-<b>Warning</b>:  Undefined variable $branding in <b>/var/www/preview/index.php</b> on line <b>122</b><br />
-<br />
-<b>Warning</b>:  Trying to access array offset on value of type null in <b>/var/www/preview/index.php</b> on line <b>122</b><br />
-<br />
-<b>Warning</b>:  Undefined variable $branding in <b>/var/www/preview/index.php</b> on line <b>123</b><br />
-<br />
-<b>Warning</b>:  Trying to access array offset on value of type null in <b>/var/www/preview/index.php</b> on line <b>123</b><br />
-<br />
-<b>Warning</b>:  Undefined variable $branding in <b>/var/www/preview/index.php</b> on line <b>124</b><br />
-<br />
-<b>Warning</b>:  Trying to access array offset on value of type null in <b>/var/www/preview/index.php</b> on line <b>124</b><br />
-<br />
-<b>Warning</b>:  Undefined variable $branding in <b>/var/www/preview/index.php</b> on line <b>125</b><br />
-<br />
-<b>Warning</b>:  Trying to access array offset on value of type null in <b>/var/www/preview/index.php</b> on line <b>125</b><br />
-<br />
-<b>Warning</b>:  Undefined variable $branding in <b>/var/www/preview/index.php</b> on line <b>126</b><br />
-<br />
-<b>Warning</b>:  Trying to access array offset on value of type null in <b>/var/www/preview/index.php</b> on line <b>126</b><br />
-/*****nappy*****/
-/* #nappy(nappyNavbar) #css starts  */
-.nappyNavbar .logo {
+/* #novel(novelNavbar) #css starts  */
+.novelNavbar .logo {
     max-height: 50px
 }
 
-.nappyNavbar .navbar-open-icon {
+.novelNavbar .navbar-open-icon {
     display: inline
 }
 
-.nappyNavbar .navbar-close-icon {
+.novelNavbar .navbar-close-icon {
     display: none
 }
 
-.nappyNavbar .navbar-toggler[aria-expanded="true"] .navbar-open-icon {
+.novelNavbar .navbar-toggler[aria-expanded="true"] .navbar-open-icon {
     display: none
 }
 
-.nappyNavbar .navbar-toggler[aria-expanded="true"] .navbar-close-icon {
+.novelNavbar .navbar-toggler[aria-expanded="true"] .navbar-close-icon {
     display: inline
 }
 
-.nappyNavbar .navbar-light .navbar-toggler {
+.novelNavbar .navbar-light .navbar-toggler {
     color: #353935;
     border-color: #353935;
     font-size: 25px;
 }
 
-/* #nappy(nappyNavbar) #css ends  */
-/*****nappy*****/
-
-/*****haunt*****/
-/* #haunt(hauntHero) #css starts  */
-.hauntHero .video_card {
-    position: relative;
-    border-radius: 5px;
-    overflow: hidden
+.novelNavbar .btn {
+    background-color: #353935;
+    color: white;
+    border: none;
+    font-weight: bold
 }
 
-.hauntHero .video_card::before {
+.novelNavbar .btn:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* #novel(novelNavbar) #css ends  */
+
+/* #hitch(hitchHero) #css starts  */
+.hitchHero .display-2{
+    font-size: 50px;
+}
+/* #hitch(hitchHero) #css ends  */
+
+/* #harsh(harshHero) #css starts  */
+.harshHero h1 {
+    font-size: 40px;
+    line-height: 1.5
+}
+
+.harshHero li {
+    list-style: none;
+    padding: 10px 30px;
+    background-image: url("https://images.moksy.com/templates/default/icons/checkmark.webp");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px
+}
+
+.harshHero .margin {
+    margin-left: -42px;
+    font-weight: bold
+}
+
+.harshHero .searchBtn {
+    background-color: #353935;
+    border-radius: 10px;
+    color: white;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-weight: bold
+}
+
+@media (max-width: 767px) {
+    .harshHero .aboutIMG {
+        margin-top: 15px;
+    }
+}
+
+/* #harsh(harshHero) #css ends  */
+
+/* #samon(samonService) #css starts */
+.samonService .feature-box-1 {
+    padding: 32px;
+    box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
+    margin: 15px 0;
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+    overflow: hidden;
+    -moz-transition: ease all 0.35s;
+    -o-transition: ease all 0.35s;
+    -webkit-transition: ease all 0.35s;
+    transition: ease all 0.35s;
+    top: 0
+}
+
+.samonService .feature-box-1 * {
+    -moz-transition: ease all 0.35s;
+    -o-transition: ease all 0.35s;
+    -webkit-transition: ease all 0.35s;
+    transition: ease all 0.35s
+}
+
+.samonService .feature-box-1 .icon {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background: #fc5356;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 50%;
+    margin-bottom: 22px;
+    font-size: 27px
+}
+
+.samonService .feature-box-1 .icon i {
+    line-height: 70px
+}
+
+.samonService .feature-box-1 h5 {
+    color: #20247b;
+    font-weight: 600
+}
+
+.samonService .feature-box-1 p {
+    margin: 0
+}
+
+.samonService .feature-box-1:after {
     content: "";
     position: absolute;
     top: 0;
-    left: 0;
+    bottom: 0;
+    left: auto;
+    right: 0;
+    border-radius: 10px;
+    width: 0;
+    background: #353535;
+    z-index: -1;
+    -moz-transition: ease all 0.35s;
+    -o-transition: ease all 0.35s;
+    -webkit-transition: ease all 0.35s;
+    transition: ease all 0.35s
+}
+
+.samonService .feature-box-1:hover {
+    top: -5px
+}
+
+.samonService .feature-box-1:hover h5 {
+    color: #ffffff
+}
+
+.samonService .feature-box-1:hover p {
+    color: rgba(255, 255, 255, 0.8)
+}
+
+.samonService .feature-box-1:hover:after {
     width: 100%;
     height: 100%;
-    opacity: 0.7
+    border-radius: 10px;
+    left: 0;
+    right: auto
 }
 
-.hauntHero .video_card>img {
-    width: 100%
+.samonService .section {
+    padding: 100px 0;
+    position: relative
 }
 
-.hauntHero .video_card>.btn {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.samonService .section-title {
+    padding-bottom: 45px
+}
+
+.samonService .section-title h2 {
+    font-weight: 700;
+    font-size: 45px;
+    margin: 0 0 15px;
+    border-left: 5px solid #fc5356;
+    padding-left: 15px
+}
+
+/* #samon(samonService) #css ends */
+
+/* #syvor(syvorService) #css starts */
+.syvorService h1{ 
+    padding: 0 0 30px;
+ }
+ .syvorService .serviceBox{
+     text-align: center;
+ }
+ .syvorService .serviceBox .service-icon{
+     width:100px;
+     height:100px;
+     line-height: 100px;
+     font-size: 50px;
+     border: 1px solid #353535;
+     border-radius: 50%;
+     margin:0 auto 45px;
+     color:#353535;
+ }
+ .syvorService .serviceBox.green .service-icon{
+     border: 1px solid #353535;
+     color: #353535;
+ }
+ .syvorService .serviceBox.orange .service-icon{
+     border: 1px solid #353535;
+     color:#353535;
+ }
+ .syvorService .serviceBox.pink .service-icon{
+     border: 1px solid #353535;
+     color: #353535;
+ }
+ .syvorService .serviceBox .service-icon > i{
+     line-height : inherit;
+     transition: all 0.3s ease 0s;
+ }
+ .syvorService .serviceBox:hover .service-icon > i{
+     transform:scale(0.8);
+     transition: all 0.3s ease 0s;
+ }
+ .syvorService .serviceBox .service-content h3{
+     font-size: 18px;
+     font-weight:400;
+     margin-bottom: 20px;
+     color:#353535;
+ }
+ .syvorService .serviceBox.green .service-content h3{
+     color: #353535;
+ }
+ .syvorService .serviceBox.orange .service-content h3{
+     color:#353535;
+ }
+ .syvorService .serviceBox.pink .service-content h3{
+     color: #353535;
+ }
+ .syvorService .serviceBox .service-content p{
+     color: hsl(0, 0%, 38%);
+     font-size: 14px;
+     line-height: 24px;
+ }
+ @media screen and (max-width: 990px){
+     .syvorService .serviceBox{
+         margin-bottom: 25px;
+     }
+ }
+     
+ /* #syvor(syvorService) #css ends */
+
+/* #syvon(syvonService) #css starts */
+.syvonService .service {
+    color: #02d1a1;
+}
+
+.syvonService .description {
+    line-height: 2;
+}
+
+.syvonService h5 a {
+    color: #02d1a1;
+}
+
+.syvonService i {
     font-size: 30px;
-    background: #2077FF;
-    border-radius: 100%;
-    width: 80px;
-    height: 80px;
-    box-shadow: 0px 0px 0px 8px rgba(255, 255, 255, 0.4);
-    border: none;
-    color: white;
-    outline: none
 }
 
-.hauntHero .video_card>.btn:hover {
-    box-shadow: 0px 0px 0px 14px rgba(255, 255, 255, 0.5)
+/* #syvon(syvonService) #css ends */
+
+  /* #techno(technoTestimonial) #css starts  */
+  .technoTestimonial h2 {
+    color: #000;
+    font-size: 26px;
+    font-weight: 300;
+    text-align: center;
+    position: relative;
+    margin: 30px 0 60px;
 }
-
-.hauntHero .video_card>.btn:active {
-    color: #353935;
-    background: rgba(255, 255, 255, 0.5)
-}
-
-.hauntHero .para {
-    font-size: 20px;
-}
-
-/* #haunt(hauntHero) #css ends  */
-/*****haunt*****/
-
-/*****taste*****/
-/* #taste(tasteTicker) #css starts  */
-.tasteTicker {
-    height: 20vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    overflow: hidden;
-    background-color: var(--primary_color);
-}
-
-.tasteTicker .ticker {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 50px;
+.technoTestimonial h2::after {
+    content: "";
+    width: 100px;
+    position: absolute;
     margin: 0 auto;
+    height: 4px;
+    border-radius: 1px;
+    background: #1abc9c;
+    left: 0;
+    right: 0;
+    bottom: -20px;
 }
-
-.tasteTicker .news {
-    width: 100%;
-    background: transparent;
-    padding: 0 2%;
+.technoTestimonial .carousel .carousel-item {
+    color: #999;
+    overflow: hidden;
+    min-height: 120px;
+    font-size: 13px;
 }
-
-.tasteTicker p {
-    font-size: 25px;
-    margin-top: 4px !important;
+.technoTestimonial .carousel .media {
+    position: relative;
+    padding: 0 0 0 20px;
 }
-
-.tasteTicker .news-content p {
-    display: inline-block;
-    margin: 0;
-    color: #fff;
-}
-.tasteTicker .news-content {
-    display: flex;
-    gap: 50px; /* Adjust the spacing between news items */
-    animation: scrollNews 10s linear infinite;
-    white-space: nowrap;
-}
-@keyframes scrollNews {
-    0% {
-        transform: translateX(100%);
-    }
-    100% {
-        transform: translateX(-100%);
-    }
-}
-/* #taste(tasteTicker) #css ends  */
-/*****taste*****/
-
-/*****comex*****/
-/* #comex(comexCounters) #css starts  */
-.comexCounters .card-counter {
-    box-shadow: 2px 2px 10px #DADADA;
-    margin: 5px;
-    padding: 10px 10px;
-    background-color: #fff;
-    height: 100px;
-    border-radius: 5px;
-    transition: .3s linear all;
-}
-
-.comexCounters .card-counter:hover {
-    box-shadow: 4px 4px 20px #DADADA;
-    transition: .3s linear all;
-}
-
-.comexCounters .card-counter.primary {
-    background-color: #353535;
-    color: #FFF;
-}
-
-.comexCounters .card-counter.danger {
-    background-color: #353535;
-    color: #FFF;
-}
-
-.comexCounters .card-counter.success {
-    background-color: #353535;
-    color: #FFF;
-}
-
-.comexCounters .card-counter.info {
-    background-color: #353535;
-    color: #FFF;
-}
-
-.comexCounters .card-counter i {
-    font-size: 5em;
-    opacity: 0.2;
-}
-
-.comexCounters .card-counter .count-numbers {
-    position: absolute;
-    right: 35px;
-    top: 20px;
-    font-size: 32px;
+.technoTestimonial .carousel .media img {
+    width: 75px;
+    height: 75px;
     display: block;
+    border-radius: 50%;
 }
-
-.comexCounters .card-counter .count-name {
+.technoTestimonial .carousel .testimonial-wrapper {
+    padding: 0 10px;
+}
+.technoTestimonial .carousel .testimonial {
+    color: #808080;
+    position: relative;
+    padding: 15px;
+    background: #f1f1f1;
+    border: 1px solid #efefef;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+.technoTestimonial .carousel .testimonial::after {
+    content: "";
+    width: 15px;
+    height: 15px;
+    display: block;
+    background: #f1f1f1;
+    border: 1px solid #efefef;
+    border-width: 0 0 1px 1px;
     position: absolute;
-    right: 35px;
-    top: 65px;
-    font-style: italic;
+    bottom: -8px;
+    left: 46px;
+    transform: rotateZ(-46deg);
+}
+.technoTestimonial .carousel .star-rating li {
+    padding: 0 2px;
+}
+.technoTestimonial .carousel .star-rating i {
+    font-size: 16px;
+    color: #ffdc12;
+}
+.technoTestimonial .carousel .overview {
+    padding: 3px 0 0 15px;
+}
+.technoTestimonial .carousel .overview .details {
+    padding: 5px 0 8px;
+}
+.technoTestimonial .carousel .overview b {
     text-transform: capitalize;
-    opacity: 0.5;
-    display: block;
-    font-size: 18px;
+    color: #353535;
+    font-size: 16px;
 }
+.technoTestimonial .carousel .carousel-indicators {
+    bottom: -70px;
+}
+.technoTestimonial .carousel-indicators li, 
+.technoTestimonial .carousel-indicators li.active {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 1px 2px;
+    box-sizing: border-box;
+}
+.technoTestimonial .carousel-indicators li {	
+    background: #e2e2e2;
+    border: 4px solid #fff;
+}
+.technoTestimonial .carousel-indicators li.active {
+    color: #fff;
+    background: #353535;
+    border: 5px double;    
+}
+    /* #techno(technoTestimonial) #css ends  */
 
-/* #comex(comexCounters) #css ends  */
-/*****comex*****/
-
-/*****balor*****/
-/* #balor(balorBanner) #css starts  */
-.balorBanner header {
+/* #tamara(tamaraTeam) #css starts */
+.tamaraTeam h1{
+    text-align: center;
+}
+.tamaraTeam .our-team{
+    text-align: center;
+    margin-bottom: 100px;
+    z-index: 1;
     position: relative;
-    background-color: black;
-    height: 75vh;
-    min-height: 25rem;
+}
+.tamaraTeam .our-team .pic{
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+.tamaraTeam .our-team .pic:after{
+    content: "";
     width: 100%;
-    overflow: hidden
-}
-
-.balorBanner header video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: 0;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%)
-}
-
-.balorBanner header .container {
-    position: relative;
-    z-index: 2
-}
-
-.balorBanner header .overlay {
+    height: 100%;
+    border-radius: 50%;
+    background: rgba(0,0,0,0.7);
+    opacity: 0;
     position: absolute;
     top: 0;
     left: 0;
-    height: 100%;
+    transition: all 0.5s ease 0s;
+}
+.tamaraTeam .our-team:hover .pic:after{
+    opacity: 1;
+}
+.tamaraTeam .our-team .pic img{
     width: 100%;
-    background-color: black;
-    opacity: 0.5;
-    z-index: 1
+    height: 250px; /* Fixed height */
+    object-fit: cover; /* Ensures the image maintains aspect ratio and covers the area */
 }
-
-/* media query */
-@media (pointer: coarse) and (hover: none) {
-    .balorBanner header {
-        background: url("http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4") black no-repeat center center scroll
-    }
-
-    .balorBanner header video {
-        display: none
-    }
-}
-
-.balorBanner .glightbox_video {
+.tamaraTeam .our-team .social{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    opacity: 0;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 45%;
+    left: 0;
+    z-index: 1;
+    transition: all 0.5s ease 0s;
 }
-
-.balorBanner .outer_circle {
-    stroke-width: 3;
-    stroke-dasharray: 410;
-    stroke-dashoffset: 0;
-    stroke-linecap: square;
-    transition: all .4s ease-out;
+.tamaraTeam .our-team:hover .social{
+    opacity: 1;
 }
-
-.balorBanner .glightbox_video:hover .outer_circle {
-    stroke-dashoffset: 410;
-    transition: stroke .7s .4s ease-out, stroke-dashoffset .4s ease-out
+.tamaraTeam .our-team .social li{
+    display: inline-block;
 }
-
-.balorBanner .glightbox_video:hover .inner-circle {
-    fill: #BF2428;
-    transition: fill .4s .3s ease-out;
-
+.tamaraTeam .our-team .social li a{
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    font-size: 15px;
+    color: #fff;
+    margin-right: 10px;
+    transition: all 0.5s ease 0s;
 }
-
-.balorBanner .glightbox_video:hover .play {
-    fill: white;
-    transition: fill .4s .3s ease-out;
-}
-
-/* #balor(balorBanner) #css ends  */
-/*****balor*****/
-
-/*****sivex*****/
-    /* #sivex(sivexService) #css starts */
-    .sivexService { 
-        overflow: hidden;
-     }
-    .sivexService h1{ 
-        padding: 0 0 30px;
-     }
-     .sivexService .serviceBox {
-         background:hsl(0, 0%, 100%);
-         border: 2px solid hsl(0, 0%, 100%);
-         border-radius: 4px;
-         margin-top: 40px;
-         padding: 0 30px 40px;
-         text-align: center;
-     }
-     .sivexService .serviceBox .service-icon{
-         position: relative;
-     }
-     .sivexService .serviceBox .service-icon::after {
-         border-radius: 50%;
-         box-sizing: content-box;
-         content: "";
-         height: 100%;
-         pointer-events: none;
-         position: absolute;
-         width: 100%;
-     }
-     .sivexService .serviceBox .service-icon.purple i {
-         background:#353535;
-     }
-     .sivexService .serviceBox .service-icon.light-blue i {
-         background:#353535;
-     }
-     .sivexService .serviceBox .service-icon.orange i {
-         background:#353535;
-     }
-     .sivexService .serviceBox .service-icon.green i {
-         background:#353535;
-     }
-     .sivexService .serviceBox .service-icon i {
-         border: 2px solid hsl(192, 24%, 96%);
-         border-radius: 50%;
-         color: hsl(0, 0%, 100%);
-         display: block;
-         font-size: 28px;
-         height: 80px ;
-         line-height: 80px;
-         margin: -40px auto 0;
-         position: relative;
-         top: 0;
-         width: 80px;
-     }
-     .sivexService .serviceBox a{
-         border: none;
-     }
-     .sivexService .serviceBox a:hover{
-         background: none;
-         color: #000000;
-     }
-     .sivexService .serviceBox a.purple{
-         color:#353535;
-     }
-     .sivexService .serviceBox a.light-blue{
-         color:#353535;
-     }
-     .sivexService .serviceBox a.orange{
-         color:#353535;
-     }
-     .sivexService .serviceBox a.green{
-         color:#353535;
-     }
-     .sivexService .serviceBox .service-content h3{
-        font-size: 18px;
-        margin-top: 30px;
-        color: #353535;
-        margin-bottom: 20px;
-     }
-     .sivexService .serviceBox .service-content p{
-         line-height:25px;
-     }
-     
-     @media only screen and (max-width: 990px){
-         .sivexService .serviceBox{
-             margin-bottom: 20px;
-         }
-     }
-         
-     /* #sivex(sivexService) #css ends */
-     /*****sivex*****/
-
-/*****canon*****/
-/* #canon(canonClients) #css starts  */
-.canonClients #clients .clients-wrap {
-    border-top: 1px solid #C7C4D1;
-    margin-bottom: 20px
-}
-
-.canonClients img {
-    max-height: 200px;
-    max-width: 200px
-}
-
-.canonClients #clients .client-logo {
-    padding: 60px;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    border-bottom: 1px solid #C7C4D1;
-    overflow: hidden;
+.tamaraTeam .our-team .social li a:hover{
     background: #fff;
-    height: 100px
+    color: #000;
+    text-decoration: none;
+}
+.tamaraTeam .our-team .team-content{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px dotted #ddd;
+    position: absolute;
+    bottom: -70px;
+    left: 0;
+    z-index: -1;
+    transition: all 0.5s ease 0s;
+}
+.tamaraTeam .our-team:hover .team-content{
+    border: 2px dotted #00adae;
+}
+.tamaraTeam .our-team .team-info{
+    width: 100%;
+    color: #464646;
+    position: absolute;
+    bottom: 12px;
+    left: 0;
+}
+.tamaraTeam .our-team .title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #464646;
+    margin: 0 0 5px 0;
+    transition: all 0.5s ease 0s;
+}
+.tamaraTeam .our-team:hover .title{
+    color: #00adae;
+}
+.tamaraTeam .our-team .post{
+    display: block;
+    font-size: 14px;
+    color: #464646;
 }
 
-/* #canon(canonClients) #css ends  */
-/*****canon*****/
+/* #tamara(tamaraTeam) #css ends */
+
+    
 
 /*****pazel*****/
 /* #pazel(pazelPricing) #css starts  */
