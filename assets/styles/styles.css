@@ -99,21 +99,66 @@ body{
 
 /* #harsh(harshHero) #css ends  */
 
-/* #brexo(brexoBanner) #css starts  */
-#brexoBanner {
-    background: #000;
+/* #balor(balorBanner) #css starts  */
+.balorBanner header {
     position: relative;
-    height: 100vh;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden
 }
 
-.brexoBanner .glightbox_video {
+.balorBanner header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%)
+}
+
+.balorBanner header .container {
+    position: relative;
+    z-index: 2
+}
+
+.balorBanner header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1
+}
+
+/* media query */
+@media (pointer: coarse) and (hover: none) {
+    .balorBanner header {
+        background: url("http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4") black no-repeat center center scroll
+    }
+
+    .balorBanner header video {
+        display: none
+    }
+}
+
+.balorBanner .glightbox_video {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.brexoBanner .outer_circle {
+.balorBanner .outer_circle {
     stroke-width: 3;
     stroke-dasharray: 410;
     stroke-dashoffset: 0;
@@ -121,23 +166,23 @@ body{
     transition: all .4s ease-out;
 }
 
-.brexoBanner .glightbox_video:hover .outer_circle {
+.balorBanner .glightbox_video:hover .outer_circle {
     stroke-dashoffset: 410;
     transition: stroke .7s .4s ease-out, stroke-dashoffset .4s ease-out
 }
 
-.brexoBanner .glightbox_video:hover .inner-circle {
-    fill: var(--primary_color);
+.balorBanner .glightbox_video:hover .inner-circle {
+    fill: #BF2428;
     transition: fill .4s .3s ease-out;
 
 }
 
-.brexoBanner .glightbox_video:hover .play {
+.balorBanner .glightbox_video:hover .play {
     fill: white;
     transition: fill .4s .3s ease-out;
 }
 
-/* #brexo(brexoBanner) #css ends  */
+/* #balor(balorBanner) #css ends  */
 
 /* #samon(samonService) #css starts */
 .samonService .feature-box-1 {
